@@ -101,7 +101,7 @@ Generate prediction maps:
 python infer.py
 ```
 
-Pre-generated prediction maps are available: [Baidu Netdisk](https://pan.baidu.com/s/1oU18MDWG6BuyyFdaoOkOzQ) (code: `EviR`).
+Pre-generated prediction maps are available: [Baidu Netdisk](https://pan.baidu.com/s/19Cn14K7JJVdETx2aIk7bbg) (code: `EviR`).
 
 ### 5. **REFERENCES**
 

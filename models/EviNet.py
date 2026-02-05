@@ -166,7 +166,7 @@ class Network(nn.Module):
 
 
         if training:
-            loss_prob = 1 * self.evidence_loss(prob, y)
+            loss_prob = 0.5 * self.evidence_loss(prob, y)
             return s3, s2, s1, s0, s1_refined,s0_refined,loss_prob
         else:
             return s3, s2, s1, s0,s0_refined

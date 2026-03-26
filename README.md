@@ -1,4 +1,4 @@
-# **EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection**
+# **Robust Referring Camouflaged Object Detection via Reference-guided Semantic Alignment and Evidence-Guided Probabilistic Decoding**
 
 *This paper has been accepted for publication in the 2026 IEEE International Conference on Multimedia and Expo (ICME).*
 

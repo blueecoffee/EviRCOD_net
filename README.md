@@ -1,10 +1,12 @@
-# **Robust Referring Camouflaged Object Detection via Reference-guided Semantic Alignment and Evidence-Guided Probabilistic Decoding**
+# **Towards Robust Referring Camouflaged Object Detection via Coupled Adaptive Semantic Alignment and Evidential Uncertainty Modeling**
 
-*This paper has been accepted for publication in the 2026 IEEE International Conference on Multimedia and Expo (ICME).*
+**Our conference paper has been accepted for publication in the 2026 IEEE International Conference on Multimedia and Expo (ICME).**  
+*Conference version:* **EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection**  
+This repository provides the official code for the **journal extension** of the above work.
 
 **EviRCOD** is designed to jointly realize four essential capabilities: reference-guided semantic transfer, deformable context aggregation, evidence-based uncertainty quantification, and boundary-aware refinement. These capabilities are instantiated in a unified end-to-end architecture comprising three key components:
 
-1.  **Reference-Guided Deformable Encoder (RGDE)** couples hierarchical reference modulation with deformablenmulti-scale fusion, injecting semantic priors while adaptively aligning spatially variant tokens across resolutions.
+1.  **Reference-Guided Deformable Encoder (RGDE)** couples hierarchical reference modulation with deformable multi-scale fusion, injecting semantic priors while adaptively aligning spatially variant tokens across resolutions.
 2.  **Uncertainty-Aware Evidential Decoder (UAED)** incorporates Dirichlet-based evidence theory into hierarchical decoding to jointly model epistemic and aleatoric uncertainty, enabling robust confidence propagation and improved structural consistency.
 3.  **Boundary-Aware Refinement Module (BARM)** integrates fine-grained edge cues with confidence-guided gating to selectively refine ambiguous regions, achieving precise boundary recovery.
 

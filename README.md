@@ -1,14 +1,15 @@
 # **Towards Robust Referring Camouflaged Object Detection via Coupled Adaptive Semantic Alignment and Evidential Uncertainty Modeling**
 
 **Our conference paper has been accepted for publication in the 2026 IEEE International Conference on Multimedia and Expo (ICME).**  
-*Conference version:* **EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection**  
+**Title:** *EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection*  
+**Preprint (arXiv):** [https://arxiv.org/abs/2604.10894](https://arxiv.org/abs/2604.10894)  
 This repository provides the official code for the **journal extension** of the above work.
 
 **EviRCOD** is designed to jointly realize four essential capabilities: reference-guided semantic transfer, deformable context aggregation, evidence-based uncertainty quantification, and boundary-aware refinement. These capabilities are instantiated in a unified end-to-end architecture comprising three key components:
 
-1.  **Reference-Guided Deformable Encoder (RGDE)** couples hierarchical reference modulation with deformable multi-scale fusion, injecting semantic priors while adaptively aligning spatially variant tokens across resolutions.
-2.  **Uncertainty-Aware Evidential Decoder (UAED)** incorporates Dirichlet-based evidence theory into hierarchical decoding to jointly model epistemic and aleatoric uncertainty, enabling robust confidence propagation and improved structural consistency.
-3.  **Boundary-Aware Refinement Module (BARM)** integrates fine-grained edge cues with confidence-guided gating to selectively refine ambiguous regions, achieving precise boundary recovery.
+1.  **Reference-Guided Deformable Encoder (RGDE)** couples hierarchical reference-aware modulation with deformable multi-scale aggregation, establishing spatially adaptive and structure-aware correspondences to enable robust semantic transfer under severe structural variations.
+2.  **Uncertainty-Aware Evidential Decoder (UAED)** incorporates Dirichlet evidence learning into hierarchical decoding to explicitly model epistemic uncertainty via closed-form decomposition of class probability and uncertainty, enabling deterministic single-pass estimation and uncertainty-guided feature refinement.
+3.  **Boundary-Aware Refinement Module (BARM)** leverages calibrated uncertainty cues to selectively refine unreliable boundary regions, preserving structurally confident areas while achieving precise boundary recovery.
 
 The framework is optimized end-to-end via a joint hybrid loss that enforces structural fidelity, boundary sharpness, and well-calibrated uncertainty.
 
@@ -42,7 +43,7 @@ Extensive experiments on the Ref-COD benchmark (R2C7K) demonstrate that EviRCOD 
 |:---------------:|:----:|:----:|:----:|:-----:|
 | R2CNet           | 0.805 | 0.669 | 0.879 | 0.036 |
 | UAT              | 0.855 | 0.757 | 0.912 | 0.026 |
-| **EviRCOD (Ours)** | **0.870** | **0.799** | **0.945** | **0.021** |
+| **EviRCOD (Ours)** | **0.869** | **0.799** | **0.944** | **0.021** |
 
 *Note: Higher values are better for Sₘ, ωF, and αE; lower values are better for MAE.*
 

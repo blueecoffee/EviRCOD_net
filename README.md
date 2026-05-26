@@ -1,9 +1,5 @@
-# **Towards Robust Referring Camouflaged Object Detection via Coupled Adaptive Semantic Alignment and Evidential Uncertainty Modeling**
+# **Adaptive Semantic Alignment with Evidential Uncertainty Modeling for Referring Camouflaged Object Detection**
 
-**Our conference paper has been accepted for publication in the 2026 IEEE International Conference on Multimedia and Expo (ICME).**  
-**Title:** *EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection*  
-**Preprint (arXiv):** [https://arxiv.org/abs/2604.10894](https://arxiv.org/abs/2604.10894)  
-This repository provides the official code for the **journal extension** of the above work.
 
 **EviRCOD** is designed to jointly realize four essential capabilities: reference-guided semantic transfer, deformable context aggregation, evidence-based uncertainty quantification, and boundary-aware refinement. These capabilities are instantiated in a unified end-to-end architecture comprising three key components:
 

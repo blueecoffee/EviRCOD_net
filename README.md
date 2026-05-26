@@ -1,4 +1,4 @@
-# **Towards Robust Referring Camouflaged Object Detection via Coupled Adaptive Semantic Alignment and Evidential Uncertainty Modeling**
+# **Adaptive Semantic Alignment with Evidential Uncertainty Modeling for Referring Camouflaged Object Detection**
 
 **Our conference paper has been accepted for publication in the 2026 IEEE International Conference on Multimedia and Expo (ICME).**  
 **Title:** *EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection*  
